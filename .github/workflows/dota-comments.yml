@@ -27,9 +27,9 @@ jobs:
           import urllib.error
           import time
 
-          OWNER = "ilushkabond"
-          REPO = "test"
-          ISSUE = 1
+          OWNER = "ValveSoftware"
+          REPO = "Dota2-Gameplay"
+          ISSUE = 34531
           STATE = ".github/last_comment_id"
 
           if os.path.exists(STATE):
